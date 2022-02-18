@@ -58,6 +58,12 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*moved content under hero instead of under .float classes*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 .float-left {
     float: left;
@@ -67,12 +73,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -90,12 +90,12 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*made only one h3 class*/
 .side-tiles h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*made only one img class*/
 .side-tiles img {
     display: block;
     margin: 10px auto;
@@ -110,22 +110,12 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*made one class for content box img styling*/
 .content-boxes img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+/*made one h2 class for all h2 styling*/
+.content-boxes h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
