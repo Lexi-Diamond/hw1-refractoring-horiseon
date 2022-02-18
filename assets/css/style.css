@@ -8,23 +8,23 @@ body {
     background-color: #d9dcd6;
 }
 
-header {
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-header h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.seo {
+.header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,7 +32,7 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+.header div ul {
     list-style-type: none;
 }
 
@@ -86,21 +86,49 @@ p {
     background-color: #2589bd;
 }
 
-/*deleted the other .benefit classes that were not needed because only 1 class is needed for all of those elements*/
-
-.side-tile {
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*made only 1 h3 instead of using the old deleted .benefit classes from the deleted lines above*/
 
-h3 {
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/*made only one side-tile (used to be bennefits img style*/
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
 
 .benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -144,9 +172,18 @@ h3 {
 .social-media-marketing img {
     max-height: 200px;
 }
-/* made only 1 h2 because they are all the same*/
 
-h2 {
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
